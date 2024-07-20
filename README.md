@@ -30,3 +30,8 @@ $ ./tv_show_tracker --delete 2
 $ ./tv_show_tracker --list
 
 ```
+<h1>Author</h1>
+- malisio aka m4lisio
+<h1>License</h1>
+This project is under the GNU General Public License (GPL).
+Enjoy managing your TV shows with prkc!
