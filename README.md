@@ -1,26 +1,26 @@
-<h1>TV Show Tracker</h1>
-prkc is a show tracker a command-line utility to manage your TV show watchlist.
-<h2>Features</h2>
-- Add a new show: add new show to your watchlist with the number of episodes.
+# TV Show Tracker
+**prkc** is a show tracker a command-line utility to manage your TV show watchlist.
+## Features
+- **Add a new show** add new show to your watchlist with the number of episodes.
 
-- Mark a show as done: Mark a show as completed.
+- **Mark a show as done:** Mark a show as completed.
   
-- Delete a show: Remove a show from your watchlist
+- **Delete a show** Remove a show from your watchlist
   
-- list all shows: Display all shows in your watchlist.
+- **list all shows:** Display all shows in your watchlist.
   
-<h1>Usage</h1>
-- --usage: Display this menu.
+# Usage
+- `--usage:` Display this menu.
 
-- --set eps_number: Add a new show to the watchlist. Example: --set "Breaking Bad" 62
+- `--set eps_number:` Add a new show to the watchlist. Example: --set "Breaking Bad" 62
 
-- --done line_number: Mark a show as done by specifying the line number. Example: --done 1
+- `--done line_number:` Mark a show as done by specifying the line number. Example: --done 1
 
-- --delete line_number: Delete a show from the watchlist by specifying the line number. Example: --delete 3
+- `--delete line_number:` Delete a show from the watchlist by specifying the line number. Example: --delete 3
 
-- --list: List all shows currently in the watchlist.
+- `--list:` List all shows currently in the watchlist.
   
-<h1>Example</h1>
+# Example
 
 ```bash
 # Display menu
@@ -39,8 +39,8 @@ $ ./tv_show_tracker --delete 2
 $ ./tv_show_tracker --list
 
 ```
-<h1>Author</h1>
+# Author
 - malisio aka m4lisio
-<h1>License</h1>
+# License
 This project is under the GNU General Public License (GPL).
 Enjoy managing your TV shows with prkc!

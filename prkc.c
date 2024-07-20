@@ -24,7 +24,7 @@ int main(int argc, char * argv[]){
     }
 
     FILE * fptr;
-    const char * path = "/home/malisio/Documents/.file.txt";
+    const char * path = "~/Documents/.file.txt";
 
     if(strcmp(argv[1], "--set") == 0){
 
