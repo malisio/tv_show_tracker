@@ -3,7 +3,7 @@ prkc is a show tracker a command-line utility to manage your TV show watchlist.
 <h2>Features</h2>
 - Add a new show: add new show to your watchlist with the number of episodes.
 
-- Mark a show as done**: Mark a show as completed.
+- Mark a show as done: Mark a show as completed.
   
 - Delete a show: Remove a show from your watchlist
   
@@ -11,12 +11,15 @@ prkc is a show tracker a command-line utility to manage your TV show watchlist.
   
 <h1>Usage</h1>
 - --usage: Display this menu.
+
 - --set eps_number: Add a new show to the watchlist. Example: --set "Breaking Bad" 62
+
 - --done line_number: Mark a show as done by specifying the line number. Example: --done 1
 
 - --delete line_number: Delete a show from the watchlist by specifying the line number. Example: --delete 3
 
 - --list: List all shows currently in the watchlist.
+  
 <h1>Example</h1>
 
 ```bash
