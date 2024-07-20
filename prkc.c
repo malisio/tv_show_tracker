@@ -84,10 +84,14 @@ int main(int argc, char * argv[]){
         fptr=fopen(path, "r");
         FILE * fptr2;
         fptr2= fopen("/tmp/.tmp.txt", "w");
-        if(fptr== NULL || fptr2== NULL){
-            printf("Null error\n");
+        if(fptr== NULL ){
+            printf("Null error fptr\n");
             return 1;
         }
+	if(fptr2 == NULL){
+		printf("Null error fptr2\n");
+		return 1;
+	}
 
         int current_line=1;
         int target_line= atoi(argv[2])+1;
@@ -98,7 +102,7 @@ int main(int argc, char * argv[]){
             if(feof(fptr)){
                 running=false;
             }
-            else if(current_line==target_line){
+            else if(current_line!=target_line){
                 fprintf(fptr2,"%s", string);
             }
             current_line++;
